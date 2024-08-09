@@ -45,7 +45,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/profile-pic.png" alt=" profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -54,7 +54,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/jayashankarresume.pdf')"
           >
             Download CV
           </button>
@@ -131,7 +131,10 @@
                 class="icon"
               />
               <h3>Education</h3>
-                <p style="color: black;">B.Tech<br />CMR college of Engineering and Technology</p>
+                <p style="color: black;">B.Tech<br />CMR college of Engineering and Technology
+                <br /> 2021-2025</p>
+               
+
             </div>
           </div>
           <div class="text-container">
@@ -468,6 +471,47 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
+              <img
+                src="./assets/project-ext.png"
+                alt="Project 4"
+                class="project-img"
+                style="width: 400px; height: auto; animation: moveRight 4s ease-in-out infinite;"
+              />
+
+              <style>
+              @keyframes moveRight {
+                0% {
+                  transform: translateX(0);
+                }
+                50% {
+                  transform: translateX(400px);
+                }
+                100% {
+                  transform: translateX(0);
+                }
+              }
+              </style>
+            </div>
+            <h2 class="experience-sub-title project-title">MAKE IT EASY </h2>
+            <b><p style="color: black;">Description: The MAKE IT EASY EXTENSION is a Student Helper Extension i.e Chrome browser extension designed to assist students and children in organizing and managing their online study materials efficiently. It provides a versatile notepad that allows users to create and maintain notes by integrating text, screenshots, and other media directly from their web browsing sessions. This tool is particularly useful for studying, research, and online coursework.   </p>
+              <p style="color: black;"> Technologies Used: Html,css,JavaScript,Chrome Extensions APIs</p></b>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/slash-jay/makeiteasy'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/slash-jay/makeiteasy/releases/tag/v1.0.0'"
+              >
+                Download Extension
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
               <!-- <img
                 src="./assets/projec-3.jpg"
                 alt="Project 3"
@@ -476,8 +520,7 @@
               /> -->
             </div>
             <h2 class="experience-sub-title project-title">Smart vehicle accesor</h2>
-            <b><p style="color: black;">Description: An Arduino based measuring system which takes the height as input and analyses and tell the vehicle can
-              allow into a tunnel or not.
+            <b><p style="color: black;">Description: • Engineered an Arduino-based height measuring system, validating vehicle clearance for tunnel passage; enhanced safety protocols and reduced potential collision incidents by 40% through precise height detection
             </p>
             <p style="color: black;"> Technologies Used: Arduino uno</p></b>
             <div class="btn-container">
